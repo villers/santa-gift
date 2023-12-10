@@ -5,14 +5,9 @@ const nextConfig = {
     assetPrefix: '/santa-gift',
     images: {
         unoptimized: true,
-        remotePatterns: [
-            {
-                protocol: 'https',
-                hostname: 'villers.github.io',
-                port: '',
-                pathname: '/santa-gift/**',
-            },
-        ],
+        domains: ['villers.github.io'],
+        loader: 'custom',
+        loaderFile: './image.loader.js',
     },
 };
 
