@@ -2,6 +2,7 @@
 const nextConfig = {
     output: "export",
     basePath: "/santa-gift",
+    assetPrefix: '/santa-gift',
     images: {unoptimized: true},
 };
 
