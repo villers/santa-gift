@@ -3,27 +3,27 @@ import { Card } from "app/components/Card";
 const gift = [
   {
     title: "iPhone 15 rose 128GB",
-    src: "/iphone15.png",
+    src: "iphone15.png",
   },
   {
     title: "Casque Shoei Jaune",
-    src: "/shoei.png",
+    src: "shoei.png",
   },
   {
     title: "FURYGAN - Chaussures femme Janis Lady D3O® Noir",
-    src: "/shoes.png",
+    src: "shoes.png",
   },
   {
     title: "SAC BANDOULIÈRE M BOX-TROT",
-    src: "/sac.png",
+    src: "sac.png",
   },
   {
     title: "BRIMNES Lit banquette 2 places blanc + 2 tiroirs + matelas",
-    src: "/lit.png",
+    src: "lit.png",
   },
   {
     title: "VESTE DE MOTO CYCLONE GTX POUR FEMMES GORE-TEX®",
-    src: "/veste.png",
+    src: "veste.png",
   },
 ];
 

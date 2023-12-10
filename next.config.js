@@ -2,12 +2,9 @@
 const nextConfig = {
     output: "export",
     basePath: "/santa-gift",
-    assetPrefix: '/santa-gift',
+    assetPrefix: '/santa-gift/',
     images: {
         unoptimized: true,
-        domains: ['villers.github.io'],
-        loader: 'custom',
-        loaderFile: './image.loader.js',
     },
 };
 
